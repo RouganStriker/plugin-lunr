@@ -11,14 +11,14 @@
     "html-entities": "1.2.0",
     "lunr": "0.5.12"
   },
-  "homepage": "https://github.com/GitbookIO/plugin-lunr",
+  "homepage": "https://github.com/RouganStriker/plugin-lunr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GitbookIO/plugin-lunr.git"
+    "url": "https://github.com/RouganStriker/plugin-lunr.git"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/GitbookIO/plugin-lunr/issues"
+    "url": "https://github.com/RouganStriker/plugin-lunr/issues"
   },
   "gitbook": {
     "properties": {
