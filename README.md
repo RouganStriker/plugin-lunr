@@ -1,3 +1,7 @@
+This is a fork of the [gitbook lunr plugin](https://github.com/GitbookIO/plugin-lunr). 
+In this version of lunr the search index and document store are cleared prior to generating the search index for a book.
+This is useful if you are generating multiple gitbooks in a single run and want to separate the search indices for each book.
+
 # lunr
 
 This plugin provides a backend for the [search](https://github.com/GitbookIO/plugin-search) plugin.

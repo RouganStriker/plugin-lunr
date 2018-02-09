@@ -40,6 +40,15 @@ module.exports = {
     },
 
     hooks: {
+        // Clear index
+        'init': function() {
+            searchIndex = null;
+            documentsStore = {};
+            indexSize = 0;
+
+            return;
+        },
+
         // Index each page
         'page': function(page) {
             if (this.output.name != 'website' || !searchIndexEnabled || page.search === false) {
